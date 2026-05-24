@@ -1,16 +1,75 @@
-# React + Vite
+# 📓 Aura Notes – Modern Notes Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive, and immersive glassmorphic notes management application built with **React**, **Vite**, and **Tailwind CSS**. 
 
-Currently, two official plugins are available:
+Featuring a premium dark-mode aesthetic with dynamic background glowing orbs, smooth transitions, and fluid micro-interactions, Aura Notes provides a beautiful workspace to capture and organize your thoughts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Modern Glassmorphic UI:** Beautiful translucent cards with subtle gradient borders and backdrop filters.
+- **Dynamic Backgrounds:** Ambient floating glowing orbs (`violet` and `indigo` hues) that create an immersive, futuristic writing environment.
+- **Responsive Workspace Layout:** Optimized for all screen sizes—from mobile phones to ultra-wide desktop monitors.
+- **Instant Actions:** Easily create and delete notes with fluid hover animations and real-time counter updates.
+- **Polished UX Details:** Responsive inputs, interactive hover-to-reveal delete buttons, custom layout transitions, and high-contrast typography.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend Library:** [React 19](https://react.dev/)
+- **Build Tool / Bundler:** [Vite 8](https://vite.dev/) (with fast Hot Module Replacement)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (integrated via `@tailwindcss/vite`)
+- **Design System:** Custom Dark Theme (`#0b0c10` workspace background) with glowing neon aesthetics.
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/soham-10-byte/notes-manager.git
+cd notes-manager
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+Open your browser and visit `http://localhost:5173` to see the application in action.
+
+### 4. Build for production
+To build a highly optimized version of the app for production deployment:
+```bash
+npm run build
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+notes-manager/
+├── public/              # Static public assets (icons, etc.)
+├── src/
+│   ├── assets/          # SVG / image assets
+│   ├── App.jsx          # Core application component (Form, Grid & Notes logic)
+│   ├── main.jsx         # Entry point for React rendering
+│   └── index.css        # Global CSS & Tailwind configuration
+├── index.html           # Main HTML document
+└── vite.config.js       # Vite & Tailwind configuration
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it.
