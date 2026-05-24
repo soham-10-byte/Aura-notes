@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", system-ui, -apple-system, sans-serif;
+
+  --animate-float: float 15s ease-in-out infinite;
+  --animate-float-reverse: float-reverse 18s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-20px) scale(1.05);
+    }
+  }
+
+  @keyframes float-reverse {
+    0%, 100% {
+      transform: translateY(0) scale(1.05);
+    }
+    50% {
+      transform: translateY(20px) scale(1);
+    }
+  }
+}
